@@ -10,6 +10,7 @@ public class ClienteDireccion : BaseEntity
 {
     [Required]
     public int IdCliente { get; set; }
+    public Cliente Clientes{get; set;}
     public string TipoDeVia { get; set; }
     public int NumeroPri { get; set; }
     public string Letra { get; set; }
@@ -25,4 +26,5 @@ public class ClienteDireccion : BaseEntity
 
     [Required]
     public int IdCiudad { get; set; }
+    public Ciudad Ciudades{get; set;}
 }
