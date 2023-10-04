@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Core.Interfaces;
 using Infrastructure.Data;
 
-namespace Infrastructure.UnitOfWork
-{
+namespace Infrastructure.UnitOfWork;
+
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly VeterinariaContext _context;
@@ -17,12 +17,12 @@ namespace Infrastructure.UnitOfWork
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _context.Dispose();
         }
 
-        public Task<int> SaveAsync()
+        public async Task<int> SaveAsync()
         {
-            throw new NotImplementedException();
+            return await _context.SaveChangesAsync();
         }
+        
     }
-}

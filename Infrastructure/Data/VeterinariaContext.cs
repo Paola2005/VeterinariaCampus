@@ -28,4 +28,9 @@ public class VeterinariaContext : DbContext
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
+
+    internal Task<int> SaveChangeAsync()
+    {
+        throw new NotImplementedException();
+    }
 }
