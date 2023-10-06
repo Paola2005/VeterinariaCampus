@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AspNetCoreRateLimit;
 using Core.Interfaces;
 using Infrastructure.UnitOfWork;
-using Microsoft.Extensions.Options;
 
 namespace API.Extension;
 

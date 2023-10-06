@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGVUHuSfbnD0W5sFUL3ULJ2clHWPY2UokYwqDY80FQg000DI0dgA7SqRHuMcmZjjjn3mb4h1eJpvhrApc9pzTw==",
+  "dgSpecHash": "RYZftztiQ6flzqbCeW/nRXBcgUzPR2qugNLFXObUVsLOc12hGiyCjGmcdMy5PI6sNpsvEqCz4JuWwVbt0lUdFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj",
+  "projectFilePath": "/workspaces/veterinariacampus/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

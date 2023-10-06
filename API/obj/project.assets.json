@@ -2854,32 +2854,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APM02-44\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
+      "projectUniqueName": "/workspaces/veterinariacampus/API/API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\APM02-44\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\obj\\",
+      "projectPath": "/workspaces/veterinariacampus/API/API.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/veterinariacampus/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APM02-44\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj"
+            "/workspaces/veterinariacampus/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/workspaces/veterinariacampus/Infrastructure/Infrastructure.csproj"
             }
           }
         }
@@ -2956,7 +2957,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
