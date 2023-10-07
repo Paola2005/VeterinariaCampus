@@ -139,3 +139,6 @@ C:/Users/APM02-44/veterinariacampus/API/bin/Debug/net7.0/Newtonsoft.Json.dll
 /workspaces/veterinariacampus/API/obj/Debug/net7.0/API.dll
 /workspaces/veterinariacampus/API/obj/Debug/net7.0/refint/API.dll
 /workspaces/veterinariacampus/API/obj/Debug/net7.0/API.pdb
+C:\Users\velas\veterinariacampus\API\obj\Debug\net7.0\API.dll
+C:\Users\velas\veterinariacampus\API\obj\Debug\net7.0\refint\API.dll
+C:\Users\velas\veterinariacampus\API\obj\Debug\net7.0\API.pdb
