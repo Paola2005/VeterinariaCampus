@@ -44,3 +44,10 @@ C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\Infrastructure.
 C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
 C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\velas\veterinariacampus\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\velas\veterinariacampus\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\velas\veterinariacampus\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\velas\veterinariacampus\Infrastructure\bin\Debug\net7.0\Core.dll
+C:\Users\velas\veterinariacampus\Infrastructure\bin\Debug\net7.0\Core.pdb
+C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\velas\veterinariacampus\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
