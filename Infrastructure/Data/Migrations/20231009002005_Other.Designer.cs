@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(VeterinariaContext))]
-    [Migration("20231008000533_other")]
-    partial class other
+    [Migration("20231009002005_Other")]
+    partial class Other
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
