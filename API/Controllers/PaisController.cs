@@ -50,14 +50,15 @@ public class PaisController : BaseController
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<PaisDto>> Get(int id)
+    public async Task<ActionResult<List<PaisDto>>> Get(int id)
     {
         var pais = await _unitOfWork.Paises.GetByIdAsync(id);
         if (pais == null)
         {
             return NotFound();
         }
-        return _mapper.Map<PaisDto>(pais);
+        return Ok (pais);
+        
     }
 
     [HttpPut("{id}")]

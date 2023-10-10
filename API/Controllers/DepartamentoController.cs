@@ -8,8 +8,8 @@ using Core.Entities;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Controllers
-{
+namespace API.Controllers;
+
     public class DepartamentoController : BaseController
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -86,4 +86,3 @@ namespace API.Controllers
     
         
     }
-}
