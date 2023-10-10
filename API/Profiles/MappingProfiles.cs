@@ -12,7 +12,7 @@ namespace API.Profiles
     {
         public MappingProfiles()
         {
-            CreateMap<Pais,PaisDto>().ReverseMap();
+            
             CreateMap<Cita,CitaDto>().ReverseMap();
             CreateMap<Ciudad,CiudadDto>().ReverseMap();
             CreateMap<Cliente,ClienteDto>().ReverseMap();
@@ -22,6 +22,10 @@ namespace API.Profiles
             CreateMap<Raza,RazaDto>().ReverseMap();
             CreateMap<Servicio,ServicioDto>().ReverseMap();
             /* me falto hacer el de las direcciones por eso solo hay 9 y no 10 */
+            CreateMap<Pais, PaisDto>()
+            .ForMember(dest => dest.Departamentos, opt => opt.MapFrom(src => src.Departamentos));
+
         }
+        
     }
 }

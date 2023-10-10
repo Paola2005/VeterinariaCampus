@@ -29,8 +29,8 @@ public class VeterinariaContext : DbContext
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 
-    internal Task<int> SaveChangeAsync()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<int> SaveChangeAsync()
+{
+    return await base.SaveChangesAsync();
+}
 }
