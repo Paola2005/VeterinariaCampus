@@ -10,8 +10,9 @@ namespace API.Dtos
         public int Id { get; set; }
         public int ServicioId { get; set; }
         public int IdCliente { get; set; }
+        public int IdMascota{get; set;}
         public DateTime Fecha { get; set; }
-        public TimeSpan Hora { get; set; }
+        public TimeOnly Hora { get; set; }
 
 
     }
