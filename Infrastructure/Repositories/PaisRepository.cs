@@ -54,14 +54,12 @@ public class PaisRepository : GenericRepository<Pais>, IPais
             .ToListAsync();
         return (totalRegistros, registros);
     }
+
     public async Task<Pais> GetByIdAsync(int id)
-{
-    return await _context.Paises
-        .Include(p => p.Departamentos)
-        .ThenInclude(d => d.Ciudades)
-        .FirstOrDefaultAsync(p => p.Id == id);
-}
-
-    
-
+    {
+        return await _context.Paises
+            .Include(p => p.Departamentos)
+            .ThenInclude(d => d.Ciudades)
+            .FirstOrDefaultAsync(p => p.Id == id);
+    }
 }

@@ -7,8 +7,8 @@ namespace API.Dtos
 {
     public class DepartamentoDto
     {
-        public string NombreDep { get; set; }
         public int IdPais {get; set;}
+        public string NombreDep { get; set; }
         public List<CiudadDto> Ciudades {get; set;}
     }
 }
