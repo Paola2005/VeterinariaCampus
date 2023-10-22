@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiAnimals.Dtos;
+using API.Controllers;
+using API.Dtos;
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
@@ -10,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiAnimals.Controllers
 {
-    public class CitaController : BaseControllerApi
+    public class CitaController : BaseController
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
@@ -65,6 +62,7 @@ namespace ApiAnimals.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<CitaDto>> Put(int id, [FromBody] CitaDto citaDto)
         {
+        
             if(citaDto == null)
             {
                 return NotFound();
