@@ -36,7 +36,7 @@ public class PaisController : BaseController
     public async Task<ActionResult<Pais>> Post(PaisDto paisDto)
     {
         var pais = _mapper.Map<Pais>(paisDto);
-        this._unitOfWork.Paises.Add(pais);
+        _unitOfWork.Paises.Add(pais);
         await _unitOfWork.SaveAsync();
         if (pais == null)
         {
@@ -46,25 +46,23 @@ public class PaisController : BaseController
         return CreatedAtAction(nameof(Post), new { id = paisDto.Id }, paisDto);
     }
 
-[HttpGet("{id}")]
-[ProducesResponseType(StatusCodes.Status200OK)]
-[ProducesResponseType(StatusCodes.Status400BadRequest)]
-[ProducesResponseType(StatusCodes.Status404NotFound)]
-public async Task<ActionResult<PaisDto>> Get(int id)
-{
-    var pais = await _unitOfWork.Paises.GetByIdAsync(id);
-
-    if (pais == null)
+    [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<PaisDto>> Get(int id)
     {
-        return NotFound();
+        var pais = await _unitOfWork.Paises.GetByIdAsync(id);
+
+        if (pais == null)
+        {
+            return NotFound();
+        }
+
+        var paisDto = _mapper.Map<PaisDto>(pais);
+
+        return Ok(paisDto);
     }
-
-    var paisDto = _mapper.Map<PaisDto>(pais);
-
-    return Ok(paisDto);
-}
-
-
 
     [HttpPut("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]

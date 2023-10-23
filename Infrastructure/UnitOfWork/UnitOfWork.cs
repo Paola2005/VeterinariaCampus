@@ -12,7 +12,10 @@ namespace Infrastructure.UnitOfWork;
 public class UnitOfWork : IUnitOfWork, IDisposable
 {
     private readonly VeterinariaContext _context;
+
+
     private PaisRepository _paises;
+    private CitaRepository _citas;
     private CiudadRepository _ciudades;
     private DeapartamentoRepository _departamentos;
     private ClienteRepository _clientes;
@@ -31,6 +34,17 @@ public class UnitOfWork : IUnitOfWork, IDisposable
                 _paises = new PaisRepository(_context);
             }
             return _paises;
+        }
+    }
+    public ICita Citas
+    {
+        get
+        {
+            if (_citas == null)
+            {
+                _citas = new CitaRepository(_context);
+            }
+            return _citas;
         }
     }
 

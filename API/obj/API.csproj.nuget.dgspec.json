@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj": {}
+    "C:\\Users\\velas\\veterinariacampus\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj": {
+    "C:\\Users\\velas\\veterinariacampus\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\velas\\veterinariacampus\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\APM02-44\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\obj\\",
+        "projectPath": "C:\\Users\\velas\\veterinariacampus\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\velas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\velas\\veterinariacampus\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-44\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\velas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -104,21 +104,25 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
         }
       }
     },
-    "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj": {
+    "C:\\Users\\velas\\veterinariacampus\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\velas\\veterinariacampus\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\APM02-44\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\obj\\",
+        "projectPath": "C:\\Users\\velas\\veterinariacampus\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\velas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\velas\\veterinariacampus\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-44\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\velas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -157,21 +161,25 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
         }
       }
     },
-    "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\APM02-44\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\velas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\velas\\veterinariacampus\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-44\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\velas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -183,8 +191,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj"
+              "C:\\Users\\velas\\veterinariacampus\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\velas\\veterinariacampus\\Core\\Core.csproj"
               }
             }
           }
@@ -228,7 +236,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
         }
       }
     }

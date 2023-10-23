@@ -9,7 +9,7 @@ namespace Core.Interfaces
     {
         IPais Paises { get; }
         ICiudad Ciudades { get; }
-        /*ICita Citas { get; } */
+        ICita Citas { get; }
         ICliente Clientes { get; }
         IClienteDireccion ClienteDirecciones { get; }
         IClienteTelefono ClienteTelefonos { get; } /* Etas se colocan UnitOfWord */

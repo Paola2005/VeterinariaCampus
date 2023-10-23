@@ -7,6 +7,6 @@ namespace Core.Interfaces
 {
     public interface IPais : IGenericRepository<Pais>
     {
-        Task<List<Departamento>> GetDepartamentosByPaisIdAsync(int paisId);
+        
     }
 }

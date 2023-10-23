@@ -9,6 +9,5 @@ namespace API.Dtos
     {
         public int IdCliente { get; set; }
         public string Numero { get; set; }
-
     }
 }

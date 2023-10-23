@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Entities;
 
 namespace API.Dtos
 {
@@ -13,6 +14,7 @@ namespace API.Dtos
         public int IdRaza { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public int IdCliente { get; set; }
+            public List <CitaDto>Citas{get; set;}
 
     }
 }

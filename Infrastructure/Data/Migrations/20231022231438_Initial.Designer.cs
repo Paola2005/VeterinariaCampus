@@ -3,6 +3,7 @@ using System;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(VeterinariaContext))]
-    partial class VeterinariaContextModelSnapshot : ModelSnapshot
+    [Migration("20231022231438_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,12 +86,9 @@ namespace Infrastructure.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("varchar(50)");
 
-<<<<<<< HEAD
-=======
                     b.Property<int?>("CiudadesId")
                         .HasColumnType("int");
 
->>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(80)
@@ -104,11 +104,8 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-<<<<<<< HEAD
-=======
                     b.HasIndex("CiudadesId");
 
->>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
                     b.ToTable("Cliente", (string)null);
                 });
 
@@ -351,8 +348,6 @@ namespace Infrastructure.Data.Migrations
                     b.Navigation("Departamentos");
                 });
 
-<<<<<<< HEAD
-=======
             modelBuilder.Entity("Core.Entities.Cliente", b =>
                 {
                     b.HasOne("Core.Entities.Ciudad", "Ciudades")
@@ -362,7 +357,6 @@ namespace Infrastructure.Data.Migrations
                     b.Navigation("Ciudades");
                 });
 
->>>>>>> fb4c9349888e0fc8a142d94374855f3324be7d98
             modelBuilder.Entity("Core.Entities.ClienteDireccion", b =>
                 {
                     b.HasOne("Core.Entities.Ciudad", "Ciudades")
@@ -426,6 +420,8 @@ namespace Infrastructure.Data.Migrations
             modelBuilder.Entity("Core.Entities.Ciudad", b =>
                 {
                     b.Navigation("ClienteDirecciones");
+
+                    b.Navigation("Clientes");
                 });
 
             modelBuilder.Entity("Core.Entities.Cliente", b =>
