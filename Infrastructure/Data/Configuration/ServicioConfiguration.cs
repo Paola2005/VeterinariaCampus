@@ -18,6 +18,10 @@ namespace Infrastructure.Data.Configuration
             builder.Property(p => p.Nombre)
             .IsRequired()
             .HasMaxLength(50);
+
+            builder.Property(p => p.Precio)
+            .IsRequired()
+            .HasMaxLength(50);
         }
     }
 }

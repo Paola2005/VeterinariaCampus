@@ -19,6 +19,10 @@ namespace Infrastructure.Data.Configuration
             .IsRequired()
             .HasMaxLength(50);
 
+            builder.Property(p => p.Especie)
+            .IsRequired()
+            .HasMaxLength(50);
+
             builder.Property(p => p.FechaNacimiento)
             .HasColumnType("datetime");
 

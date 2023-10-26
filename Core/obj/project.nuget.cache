@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmaa1IkfTMdjOCGnTQ0VcU6c/u/ykTi94zE1hYGvF4DTUy4m0YnQvqpDN5vQdFrG56WVMv7G8SuLdD9E+wnExQ==",
+  "dgSpecHash": "diq21ixY3n40SXP/TXnqZOgI3sBP+LZGWaViJ2dFF33GF0RZ1P0wxm8GowYSwEkqq5z1C7bJteqCC8ZkauTcLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abcd\\veterinariacampus\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\APM02-44\\veterinariacampus\\Core\\Core.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\abcd\\veterinariacampus\\Core\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

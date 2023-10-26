@@ -2854,19 +2854,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abcd\\.nuget\\packages\\": {}
+    "C:\\Users\\APM02-44\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abcd\\veterinariacampus\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\abcd\\veterinariacampus\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\abcd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abcd\\veterinariacampus\\API\\obj\\",
+      "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\APM02-44\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\APM02-44\\veterinariacampus\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abcd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\APM02-44\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2878,8 +2878,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\abcd\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\abcd\\veterinariacampus\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\APM02-44\\veterinariacampus\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2959,13 +2959,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\abcd\\veterinariacampus\\API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

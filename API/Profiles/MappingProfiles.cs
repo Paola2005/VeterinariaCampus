@@ -21,6 +21,7 @@ namespace API.Profiles
             CreateMap<Mascota,MascotaDto>().ReverseMap();
             CreateMap<Raza,RazaDto>().ReverseMap();
             CreateMap<Servicio,ServicioDto>().ReverseMap();
+            CreateMap<ClienteDireccion,ClienteDireccionDto>().ReverseMap();
             /* me falto hacer el de las direcciones por eso solo hay 9 y no 10 */
             
 
