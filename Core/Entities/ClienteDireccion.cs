@@ -23,10 +23,17 @@ public class ClienteDireccion : BaseEntity
     public string CardinalSec { get; set; }
     public string Complemento { get; set; }
     public string CodigoPostal { get; set; }
-    [Required]
-    public int IdCiudad { get; set; }
-    public Ciudad Ciudades { get; set; }
+
     [Required]
     public int IdCliente { get; set; }
     public Cliente Clientes { get; set; }
+
+
+    [Required]
+    public int IdCiudad { get; set; }
+    public Ciudad Ciudades { get; set; }
+
+
+  /*   public ICollection<Cliente> Clientes { get; set; }
+    public ICollection<Ciudad> Ciudades { get; set; } */
 }

@@ -13,8 +13,11 @@ public class CiudadConfiguration : IEntityTypeConfiguration<Ciudad>
         builder.Property(e => e.Id);
 
         builder.Property(p=>p.NombreCiudad)
-        .IsRequired()
         .HasMaxLength(50);
+
+        builder.HasOne(p=>p.Departamentos)
+        .WithMany(p=>p.Ciudades)
+        .HasForeignKey(p=>p.IdDepartamento);
 
         builder.HasOne(p=>p.Departamentos)
         .WithMany(p=>p.Ciudades)

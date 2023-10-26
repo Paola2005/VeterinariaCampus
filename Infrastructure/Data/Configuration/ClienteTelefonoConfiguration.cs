@@ -20,7 +20,7 @@ namespace Infrastructure.Data.Configuration
             .HasMaxLength(50);
 
             builder.HasOne(p => p.Clientes)
-            .WithMany(p => p.ClienteTelefonos)
+            .WithMany(p => p.ClientesTelefonos)
             .HasForeignKey(p => p.IdCliente);
         }
     }

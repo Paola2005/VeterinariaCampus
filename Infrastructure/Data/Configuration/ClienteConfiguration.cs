@@ -24,6 +24,12 @@ public class ClienteConfiguration : IEntityTypeConfiguration<Cliente>
         .IsRequired()
         .HasMaxLength(80);
 
+        builder.HasOne(j=>j.Ciudades)
+        .WithMany(p=>p.Clientes)
+        .HasForeignKey(p=>p.IdCiudad);
+
+
+
 
 
 

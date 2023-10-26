@@ -8,7 +8,11 @@ namespace Core.Entities;
     public class Ciudad:BaseEntity
     {
         public string NombreCiudad { get; set; }
+
         public int IdDepartamento { get; set; }
         public Departamento Departamentos{get; set;}
+        
         public ClienteDireccion ClienteDirecciones { get; set; }
+
+        public ICollection<Cliente> Clientes { get; set; }
     }
